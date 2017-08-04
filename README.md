@@ -6,8 +6,8 @@
 * 弹窗的提示类型有success、error、warning、info、question五种
 * 支持自动关闭功能
 ## 使用前
-引入css文件：`<link rel="stylesheet" type="text/css" href="PAlert.min.css" />`
-引入js文件：`<script type="text/javascript" src="PAlert.min.js"></script>`
+         引入css文件：<link rel="stylesheet" type="text/css" href="PAlert.min.css" />
+         引入js文件：<script type="text/javascript" src="PAlert.min.js"></script>
 ## 使用方法
      var pAlert = new PAlert(options);
      pAlert.show();
