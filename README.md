@@ -9,8 +9,19 @@
          引入css文件：<link rel="stylesheet" type="text/css" href="PAlert.min.css" />
          引入js文件：<script type="text/javascript" src="PAlert.min.js"></script>
 ## 使用方法
-示例
+示例：
+
          var pAlert = new PAlert(options);
          pAlert.show();
 或者
+
          new PAlert(options).show();         //该对象下的方法都支持链式调用
+
+### 传入的配置项options
+创建弹窗时，需传入该窗口的配置项，类型为Object。包含的属性有：
+* type   
+* title
+* content
+* backdrop
+* animate
+* autoClose
