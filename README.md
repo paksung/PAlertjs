@@ -9,5 +9,8 @@
          引入css文件：<link rel="stylesheet" type="text/css" href="PAlert.min.css" />
          引入js文件：<script type="text/javascript" src="PAlert.min.js"></script>
 ## 使用方法
-     var pAlert = new PAlert(options);
-     pAlert.show();
+示例
+         var pAlert = new PAlert(options);
+         pAlert.show();
+或者
+         new PAlert(options).show();         //该对象下的方法都支持链式调用
