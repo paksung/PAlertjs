@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="PAlert.min.css" />
+        <style type="text/css">
+            .bbb{
+                height: 800px;
+                background-color: #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bbb">
+            <button id="btn">弹出</button>
+        </div>
+        <script type="text/javascript" src="PAlert.min.js"></script>
+        <script type="text/javascript">
+            document.getElementById('btn').onclick = function(e){
+                var a = new PAlert({
+                    'type': 'warning',
+                    title: '警告',
+                    content: '您的手机号已欠费，请及时充值。',
+                    backdrop: true
+                }).show();
+            }
+        </script>
+    </body>
+</html>
