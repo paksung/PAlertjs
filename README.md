@@ -25,3 +25,19 @@
 * backdrop  Boolean  点击背景是否关闭弹窗，默认false
 * animate   Boolean  弹出和消失的动画，默认true
 * autoClose Number   弹窗自动关闭的时间，以毫秒数计算，默认0不开启自动关闭
+
+### 方法
+#### show()
+开启弹窗
+#### hide()
+关闭弹窗
+#### setConfirm(val, cb)
+设置确认按钮的文本和点击事件，确认按钮默认不显示，调用该方法后将显示。
+参数：
+val   String   按钮显示的文本，默认是‘确认’
+cb    Function 该按钮的点击方法
+#### setCancel(val, cb)
+设置取消/关闭按钮的文本和点击事件，不管是否设置了点击的方法，点击该按钮后都会关闭弹窗。
+参数：
+val   String   按钮显示的文本，默认是‘关闭’
+cb    Function 点击该按钮的方法
