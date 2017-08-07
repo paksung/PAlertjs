@@ -19,9 +19,9 @@
 
 ### 传入的配置项options
 创建弹窗时，需传入该窗口的配置项，类型为Object。包含的属性有：
-* type   
-* title
-* content
-* backdrop
-* animate
-* autoClose
+* type   String   弹窗的类型，默认‘info’,可填的类型有success、error、warning、info、question
+* title  String   弹窗的标题
+* content   String   提示的内容
+* backdrop  Boolean  点击背景是否关闭弹窗，默认false
+* animate   Boolean  弹出和消失的动画，默认true
+* autoClose Number   弹窗自动关闭的时间，以毫秒数计算，默认0不开启自动关闭
